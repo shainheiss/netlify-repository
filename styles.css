@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#chatbot {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#chatbox {
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#messages {
+    height: 100%;
+}
+
+#userInput {
+    width: 75%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#send {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
